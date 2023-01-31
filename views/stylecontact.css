@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+h3 {
+    background-color: yellow;
+    text-align: center;
+    font-size: 2rem;
+    padding: 12px 0px;
+    font-family: 'Unbounded', cursive;
+    margin-bottom: 34px;
+    
+}
+
+.myinput {
+    /* display: block; */
+    font-size: 16px;
+    width: 50%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: thin solid gray;
+
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+.btn{
+    font-size: 18px;
+    padding: 5px 16px;
+    border: thick solid black;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 34px;
+
+
+}
+.container{
+    min-height: 89vh;
+}

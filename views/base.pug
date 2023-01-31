@@ -1,0 +1,26 @@
+//- layout.pug
+doctype html
+html
+  head
+    title  Welcome To Kp Singh Dence Acadmy 
+    block scripts
+    block style
+  body
+      nav#navbar 
+       ul
+         div#logo  
+            img(src="/static/logo.png")
+            | HDA
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") About]
+         li #[a(href="/") Services]
+         li #[a(href="/") classinfo]
+         li #[a(href="/contact") Contact Us]
+
+      block content      
+      block foot
+      footer#footer 
+        copyright © 2023 KpSinghDenceAcadmy.com | All rights resesved
+    
+        

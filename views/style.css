@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+* {
+    font-family: cursive;
+    /* background-color: rgb(213, 235, 235); */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 28px;
+}
+#logo img {
+    height: 40px;
+    margin: 0px 5px;
+}
+
+#navbar {
+    background-color: black;
+    
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 10px;
+    
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    list-style: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    
+
+}
+#navbar ul li a:hover {
+    background-color: red;
+
+}
+.class{
+    font-size: 2rem;
+    margin: 5px;
+}
+.class-2{
+    font-size: 1.5rem;
+}
+
+#introsection {
+    background-image: url("/static/Dence.png");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-items: center ;
+    color: white;
+    
+}
+#missisonsection h1 {
+    
+    text-align: center;
+    padding-top: 12px;
+    font-size: 2rem;
+    
+}
+
+#missisonsection {
+    background-color: #ffe6e675;
+    text-align: center;
+    padding-top: 12px;
+   
+    height: 350px;
+}
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img  {
+    height: 131px;
+    padding: 0px 14px;
+    margin: 12px 9px;
+}
+.card-img img {
+    height: inherit;
+    float: left;
+    border: 2px solid gray;
+    /* width: 100%; */
+    object-fit: cover;
+    object-position: top;
+}
+.card-content {
+    margin: inherit;
+    padding-top: 20px ;
+}
+.spon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+div#spon{
+    width: 50px;
+}
+
+
+
+
+.card{
+    display: inline-block;
+    border: 2px solid red;
+    width: 25%;
+    border-radius: 10px;
+    margin: 23px 25px;
+    height: 209px;
+}
+
+#sponsorsSection {
+    background-color: rgb(243, 203, 203);
+    height: 300px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
